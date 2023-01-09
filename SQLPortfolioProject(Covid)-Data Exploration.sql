@@ -1,16 +1,21 @@
+/*
+Covid 19 Data Exploration 
+
+Skills used: Joins, CTE's, Temp Tables, Windows Functions, Aggregate Functions, Creating Views, Converting Data Types
+*/
+
+
 Select *
 From PortfolioProject..CovidDeath
+Where continent is not null 
 Order by 3,4
 
-
---Select *
---From PortfolioProject..CovidVacci
---Order by 3,4
 
 --Select the data that we are going to use
 
 Select location, date, total_cases, new_cases, total_deaths, population
 From PortfolioProject..CovidDeath
+Where continent is not null 
 Order by 1,2
 
 
@@ -28,7 +33,7 @@ Order by 1,2
 
 Select location, date, population, total_cases, (total_cases/population)*100 as InfectedPopulationPercentage
 From PortfolioProject..CovidDeath
-Where location like 'India' and continent is not null
+Where location like 'India' 
 Order by 1,2 
 
 
@@ -37,7 +42,6 @@ Order by 1,2
 Select location, population, MAX(total_cases) as HighestInfectedCount, MAX((total_cases/population))*100 as InfectedPopulationPercentage
 From PortfolioProject..CovidDeath
 --Where location like 'India'
-Where continent is not null
 Group by location, population
 Order by 4 desc
 
@@ -65,11 +69,11 @@ Order by 2 desc
 
 --GLOBAL NO.'S
 
-Select date ,SUM(new_cases) as total_cases, SUM(cast(new_deaths as int)) as total_deaths, (SUM(cast(new_deaths as int))/SUM(new_cases))*100 as DeathPercentage
+Select SUM(new_cases) as total_cases, SUM(cast(new_deaths as int)) as total_deaths, (SUM(cast(new_deaths as int))/SUM(new_cases))*100 as DeathPercentage
 From PortfolioProject..CovidDeath
 --Where location like 'India' 
 Where continent is not null
-Group by date
+--Group by date
 Order by 1,2 
 
 
@@ -84,7 +88,7 @@ Where d.continent is not null
 Order by 2,3
 
 
---Use CTE
+-- Using CTE to perform Calculation on Partition By in previous query
 
 With PopVsVac( continent, location, date, population, new_vaccinations, RollingPeopleVaccinated)
 as
@@ -102,7 +106,7 @@ Select *, (RollingPeopleVaccinated/population)*100
 From PopVsVac
 
 
---TEMP TABLE
+-- Using Temp Table to perform Calculation on Partition By in previous query
 
 Drop table if exists #PopPercentageVaccinated
 Create table #PopPercentageVaccinated
@@ -144,9 +148,6 @@ On d.location=v.location
 and d.date=v.date
 Where d.continent is not null
 --Order by 2,3
-
-Select *
-From  PopPercentageVaccinated
 
 
 
