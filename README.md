@@ -12,6 +12,7 @@ In this section I will list data analytics projects briefly describing the techn
 - [CovidVaccinations.xlsx](https://github.com/DikshaChandra/Data_Analysis_Portfolio/blob/afcc026e379da8f6464b75133aa914c8c0462c5c/CovidVaccinations.xlsx)
 - [SQLPortfolioProject(Covid)-DataCleaning.sql](https://github.com/DikshaChandra/Data_Analysis_Portfolio/blob/afcc026e379da8f6464b75133aa914c8c0462c5c/SQLPortfolioProject(Covid)-DataCleaning.sql)
 - [SQLPortfolioProject(Covid)-Data Exploration.sql](https://github.com/DikshaChandra/Data_Analysis_Portfolio/blob/afcc026e379da8f6464b75133aa914c8c0462c5c/SQLPortfolioProject(Covid)-Data%20Exploration.sql)
+
    ##### *Skills* : SQL, Data Analysis, Data cleaning, Data Exploration
    ##### *Technology* : MySQL
 2. #### Covid19 SQL Queries for Tableau Dashboard
@@ -19,6 +20,7 @@ In this section I will list data analytics projects briefly describing the techn
 - [CovidDeaths.xlsx](https://github.com/DikshaChandra/Data_Analysis_Portfolio/blob/afcc026e379da8f6464b75133aa914c8c0462c5c/CovidDeaths.xlsx)
 - [CovidVaccinations.xlsx](https://github.com/DikshaChandra/Data_Analysis_Portfolio/blob/afcc026e379da8f6464b75133aa914c8c0462c5c/CovidVaccinations.xlsx)
 - [QueriesUsedForTableauProject.sql](https://github.com/DikshaChandra/Data_Analysis_Portfolio/blob/266d3a2ca4393e7a8578b37624a1259cdd9f0f78/QueriesUsedForTableauProject.sql)
+
 .  ##### *Skills* : SQL, Data Analysis
    ##### *Technology* : MySQL, Tableau
 3. #### Covid19 Data Visualization using Python
