@@ -18,3 +18,7 @@ In this section I will list data analytics projects briefly describing the techn
 - [CovidDeaths.xlsx](https://github.com/DikshaChandra/Data_Analysis_Portfolio/blob/afcc026e379da8f6464b75133aa914c8c0462c5c/CovidDeaths.xlsx)
 - [CovidVaccinations.xlsx](https://github.com/DikshaChandra/Data_Analysis_Portfolio/blob/afcc026e379da8f6464b75133aa914c8c0462c5c/CovidVaccinations.xlsx)
 - [QueriesUsedForTableauProject.sql](https://github.com/DikshaChandra/Data_Analysis_Portfolio/blob/266d3a2ca4393e7a8578b37624a1259cdd9f0f78/QueriesUsedForTableauProject.sql)
+3. #### Covid19 Data Visualization using Python
+
+- [Covid19(Python).txt](https://github.com/DikshaChandra/Data_Analysis_Portfolio/blob/cdad6bf95496b0b4924c977af1d7beb5add041f8/Covid19(Python).txt)
+- [Github-Covid19.ipynb](https://github.com/DikshaChandra/Data_Analysis_Portfolio/blob/9c14b572b40ef44fbc22e0c438ad15a497b28876/Github-Covid19.ipynb)
