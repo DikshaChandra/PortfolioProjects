@@ -23,6 +23,7 @@ In this section I will list data analytics projects briefly describing the techn
 
    ##### *Skills* : SQL, Data Analysis
    ##### *Technology* : MySQL, Tableau
+   ##### *Tableau Dashboard* : @https://public.tableau.com/app/profile/diksha.chandra/viz/CovidDashboard_16747439849800/Dashboard1
 3. #### Covid19 Data Visualization using Python
 
 - [Covid19(Python).txt](https://github.com/DikshaChandra/Data_Analysis_Portfolio/blob/cdad6bf95496b0b4924c977af1d7beb5add041f8/Covid19(Python).txt)
