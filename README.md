@@ -33,7 +33,7 @@ In this section I will list data analytics projects briefly describing the techn
    ##### *Technology* : Jupyter Notebook, Python; Pandas, NumPy, Plotly, Matplotlib
 4. #### Diwali Sales Analysis using Python
 
--
+- [Diwali_Sales_Data.csv](https://github.com/DikshaChandra/Data_Analysis_Portfolio/blob/187b74a99e7e5d413756f65376f6de34b8a6c3ed/Diwali%20Sales%20Data.csv)
 -
 
    ##### *Skills* : Data cleaning, data analysis, data visualization
